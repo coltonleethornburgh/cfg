@@ -6,7 +6,6 @@ $steamLibs = @(
 )
 
 $cs2Path = $null
-$cs2Path = $null
 foreach ($steamBase in $steamLibs) {
     $testPath = Join-Path $steamBase "steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg"
     if (Test-Path $testPath) {
